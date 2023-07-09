@@ -13,7 +13,7 @@
             height: 500px;
             border: 1px solid rgb(255, 174, 0);
             border-radius: 30px;
-            background-image: url(game/草地2.jpg);
+            background-image: url(草地2.jpg);
             background-size: cover; 
             background-repeat: no-repeat;
             margin: auto;}
@@ -23,7 +23,7 @@
             width: 150px;
             height:150px; 
             transition: top 1s, left 1s;
-            background-image: url(game/小鸡.gif);
+            background-image: url(小鸡.gif);
             background-size: cover;}
          /*得分表样式设计*/
         #score-display{text-align: center;
@@ -46,7 +46,7 @@
     width: 150px;
     height:150px;
     transition: top 1s, left 1s;
-    background-image: url(game/鸭子.gif);
+    background-image: url(鸭子.gif);
     background-size: cover;
 }
         /*重置按钮样式*/
@@ -64,7 +64,7 @@
         /*页面样式*/
         body {padding: 20px;
     margin: 0;
-background-image: url(game/草地3.png);
+background-image: url(草地3.png);
 background-repeat:repeat-x;
 background-position: bottom; }
         /*图标移动样式*/
@@ -112,7 +112,7 @@ background-position: bottom; }
     }
     window.onload = startGame;
     function catchChicken() {
-    this.style.backgroundImage = "url(game/小鸡被抓.gif)";
+    this.style.backgroundImage = "url(小鸡被抓.gif)";
     var self = this;
     setTimeout(function() {
         self.remove();
@@ -157,7 +157,7 @@ function createDuck() {
         if (document.body.contains(duck)) {
             duck.remove();}}, 2000);}
 function catchDuck() {
-    this.style.backgroundImage = "url(game/鸭子被抓.gif)";
+    this.style.backgroundImage = "url(鸭子被抓.gif)";
     var self = this;
     setTimeout(function() {
         self.remove();
